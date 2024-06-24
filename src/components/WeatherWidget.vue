@@ -64,7 +64,7 @@ export default {
         return;
       }
       this.loading = true;
-      const apiKey = 'fc56ffca83a35793f8c7d2c4b5f9c7c4'; // Ganti dengan API Key yang Anda miliki
+      const apiKey = '4633a689fcbfb742b868737e85ff6667'; // Ganti dengan API Key yang Anda miliki
       try {
         const response = await axios.get(`https://api.openweathermap.org/data/2.5/weather`, {
           params: {
